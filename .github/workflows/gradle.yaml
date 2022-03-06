@@ -26,7 +26,7 @@ jobs:
       run: ./gradlew build
 
     - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v4
+      uses: scottg489/docker-build-push
       with:
         image: khushalpar/cicd_docker
         registry: docker.io
